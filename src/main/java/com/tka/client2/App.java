@@ -27,11 +27,14 @@ public class App {
 		e2.setEname("Swapnil Puri");
 		Employee e3 = new Employee();
 		e3.setEname("Ankita Bhagwat");
+		Employee e4 = new Employee();
+		e4.setEname("Sagar Kokare");
 
 		List<Employee> all = new ArrayList<Employee>();
 		all.add(e1);
 		all.add(e2);
 		all.add(e3);
+		all.add(e4);
 		Department d1 = new Department();
 		d1.setDept_name("IT DEV");
 		d1.setAllemp(all);
